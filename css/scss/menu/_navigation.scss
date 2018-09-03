@@ -1,0 +1,38 @@
+input.toggle,
+label.toggle {
+    display: none;
+}
+
+
+@media #{$breakpoint-small} {
+    #main-menu {
+        display: none;
+        height:0;
+        transition: height 1s;
+    }
+
+    input[type=checkbox]:checked ~ #main-menu,
+    label.toggle {
+        display: block;
+        cursor: pointer;
+
+    }
+    input[type=checkbox]:checked ~ #main-menu{
+       height: 100%;
+    }
+
+    label.toggle{
+        position: fixed;
+        display:table;
+        top: 0;
+        right: 0;
+        text-align: center;
+
+        span{
+            vertical-align: middle;
+          display: table-cell;
+    
+    }
+    }
+
+}

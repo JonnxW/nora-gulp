@@ -1,0 +1,59 @@
+#topscroll {
+    display: none;  /*Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 10px; /* Place the button at the bottom of the page */
+    right: 10px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background: transparent;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    div{
+    	position:absolute;
+    	top: 0;
+    	bottom: 0;
+    	left: 0;
+    	right: 0;
+    	z-index: -1;
+
+        opacity: 0.2;
+
+    }
+}
+
+#topscroll:hover div{
+
+    opacity: 1;
+}
+
+/*
+.menu-hover-TODO{
+li{
+	border-bottom: 1px solid black ;
+
+	&:first-child{
+		border-top: 2px solid black ;
+	}
+
+	&:last-child{
+		border-bottom: 2px solid black;
+	}
+
+	&:hover{
+		background-color: black
+		a{
+			color: white;
+		}
+	};
+}
+
+a{
+	color: black;
+	font-weight: bold;
+}
+
+li, a{
+	transition: color 0.5s, background-color 0.5s;
+}
+
+}*/
