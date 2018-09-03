@@ -1,5 +1,6 @@
 # Nora Gulp
 - I proved that mergin worked
+- now i try to create a new branch
 ## TODO
 - completely rebuild. 
 ### Useless features in current state
