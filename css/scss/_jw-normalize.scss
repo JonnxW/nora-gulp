@@ -1,0 +1,33 @@
+body, html{
+	position: absolute;
+  box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p, ol, ul, li,  a {
+  margin-top: $spacing-extra-small;
+  margin-bottom: $spacing-extra-small;
+  padding: 0;
+}
+
+ul{
+  list-style-position: inside;
+}
+
+
+
+a{
+	text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

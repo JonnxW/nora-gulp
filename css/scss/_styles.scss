@@ -1,0 +1,29 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+  STYLES
+
+  Add custom styles here.
+
+*/
+
+h1, h2, h3, h4, h5, h6, p, article, section{
+	@extend .sans-serif;
+}
+
+
+
+a{
+	@extend .serif;
+	
+}
+
+#sitenav a{
+	@extend .b;
+}

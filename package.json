@@ -1,0 +1,35 @@
+{
+  "name": "nora-gulp",
+  "version": "1.0.0",
+  "description": "gulp project for building apps with Nora CMS (based on Couch CMS)",
+  "main": "server.js",
+  "dependencies": {
+    "gulp-cli": "^2.0.1",
+    "hoek": "^5.0.4",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-file": "^0.4.0",
+    "gulp-purifycss": "^0.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonnxW/nora-gulp.git"
+  },
+  "author": "Jonathan Wolff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonnxW/nora-gulp/issues"
+  },
+  "homepage": "https://github.com/JonnxW/nora-gulp#readme"
+}
