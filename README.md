@@ -1,5 +1,5 @@
 # Nora Gulp
-
+- I proved that mergin worked
 ## TODO
 - completely rebuild. 
 ### Useless features in current state
