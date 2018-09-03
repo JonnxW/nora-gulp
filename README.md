@@ -1,8 +1,8 @@
 # Nora Gulp
-- I proved that mergin worked
-- now i try to create a new branch
+
 ## TODO
 - completely rebuild. 
+
 ### Useless features in current state
 - @build:tags : Including snippets is possible via cms:embed und cms:smart_embed
 - templates.json : Gets useless since template inheritance will be used
